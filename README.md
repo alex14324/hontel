@@ -1,4 +1,5 @@
-# HonTel [![Python 2.6|2.7](https://img.shields.io/badge/python-2.6|2.7-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/stamparm/hontel#license-mit)
+# HonTel
+(https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/stamparm/hontel#license-mit)
 
 **HonTel** is a Honeypot for Telnet service. Basically, it is a Python v2.x application emulating the service inside the [chroot](https://help.ubuntu.com/community/BasicChroot) environment. Originally it has been designed to be run inside the Ubuntu/Debian environment, though it could be easily adapted to run inside any Linux environment.
 
@@ -10,6 +11,4 @@ Setting the environment and running the application requires intermediate Linux 
 
 Note: Some botnets tend to delete the files from compromised hosts (e.g. `/bin/bash`) in order to harden itself from potential attempts of cleaning and/or attempts of installation coming from other (concurrent) botnets. In such cases either the whole *chroot* environment has to be reinstalled or host directory where the *chroot* directory resides (e.g. `/srv/chroot/`) should be recovered from the previously stored backup (recommended).
 
-## License
 
-This software is provided under under a MIT License. See the accompanying [LICENSE](https://github.com/stamparm/hontel/blob/master/LICENSE) file for more information.
